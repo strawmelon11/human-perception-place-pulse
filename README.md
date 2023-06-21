@@ -8,7 +8,7 @@ The scores are in scale of 0-10.
 
 ` Safety, lively, beautiful, wealthy`  **high** score indicates strong positive feeling
 
-` Boring, depressing`  **low** score indicates strong negative feeling
+` Boring, depressing`  **high** score indicates strong negative feeling
 
 ## Model
 We used vision transformer model pretrianed on ImageNet (ViT_B_16_Weights.IMAGENET1K_SWAG_E2E_V1) as base model, and add 3 Linear layers in ViT heads for classification.
