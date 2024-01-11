@@ -19,7 +19,7 @@ model_dict = {
             }
 
 
-model_load_path = "D:/model/"   # model dir path
+model_load_path = "D:/model"   # model dir path
 images_path = "D:/test_image"      # input image path
 out_Path = "D:/output"     # output path
 
@@ -56,7 +56,7 @@ if __name__ == "__main__":
     print("using device:{} ".format(device))
     for p in perception:
         # load model
-        model_path = model_load_path + model_dict[p]
+        model_path = model_load_path + "/" +  model_dict[p]
         model = torch.load(model_path, map_location=torch.device(device))  
         print("######### {}  #########".format(p))
         if device == 'cuda:0':
