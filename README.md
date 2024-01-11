@@ -21,7 +21,7 @@ Install packages from requirements.txt
 Change the file path in *eval.py*
 
 ```
-model_load_path = "D:/model/"   # model path
+model_load_path = "D:/model"   # model path
 images_path = "D:/test_image"      # your input image path
 out_Path = "D:/output"     # output path
 ```
