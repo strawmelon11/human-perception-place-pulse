@@ -2,3 +2,6 @@ pandas
 Pillow
 torch
 torchvision
+huggingface_hub 
+transformers 
+PIL
